@@ -69,7 +69,6 @@ int main() {
     cout << "Top element after pop: " << stack.peek() << endl;
 
     stack.pop();
-    stack.pop();
     stack.pop(); // Attempt to pop from an empty stack
 
     return 0;
